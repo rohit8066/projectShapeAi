@@ -1,0 +1,225 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(179 156 214 / 48%);
+  overflow-x: hidden;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+/* navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: rgba(174, 194, 96,0.95);
+    align-items: center;
+    /* z-index: 200; */
+    border-bottom-left-radius:13px ;
+    border-bottom-right-radius:13px ;
+    
+  }
+
+  /* srf logo div */
+  .nav__logo {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  /* srf logo img */
+  .nav__img{
+    margin: 5px;
+    width: 40%;
+    /* height: 60px; */
+  }
+
+  /* list div */
+  .nav__list_div{
+    padding-left: 5px;
+  }
+
+  /* nav list itam */
+li{
+  list-style: none;
+  display: inline;
+  margin: 5px;
+  font-size: 15px;
+}
+
+/* navbar link tag */
+.nav__a{
+  text-decoration-line: none;
+  color: black;
+  font-size:initial;
+}
+
+.nav__a:hover{
+  text-decoration-line: underline;
+  color: rgb(211, 89, 41);
+}
+ 
+/* button */
+  .button__primary {
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+    display: block;
+    cursor: pointer;
+  }
+  .button__order {
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+    margin: 10px;
+    padding: 4px 6px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+    /* display: block; */
+    cursor: pointer;
+  }
+  
+  
+  .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    .text{
+      text-align: center;
+    }
+
+   
+   
+    /* ==== form section === */
+
+    .formContainer{
+        margin: 100px auto; 
+        width: auto;  
+    }
+    .contact{
+        display: block;
+        text-align: center;
+    }
+    .middleHeading{
+        text-decoration: underline;
+        margin: 20px 0px;
+    }
+    .btn{
+        background-image: linear-gradient(
+            to right,
+            #ff512f 0%,
+            #dd2476 51%,
+            #ff512f 100%
+        );
+        margin: 12px;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        transition: 0.5s;
+        font-weight: 100;
+        background-size: 200% auto;
+        color: white; 
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-image: linear-gradient(
+            to left,
+            #ff512f 0%,
+            #dd2476 51%,
+            #ff512f 100%
+        );
+        background-position: right center;
+        box-shadow: 0 0 10px red;
+    }
+    input{
+        padding: 6px;
+        width: 15rem;
+    }
+    .location{
+        display: block;
+       text-align: center;
+    }
+    .map{
+        width: 100%;
+       
+    }
+
+    
+/* == footer== */
+
+.footer__div{
+  padding: 10px;
+  text-align: center;
+  background-color: #560080e0;
+  border-radius: 5px;
+}
+    .footer__text{
+      
+      align-items: center;
+      color: orange;
+    }
+   
+    #fb{
+      border-radius: 22px;
+      width: 48px;
+      margin: 5px;
+    }
+    #is{
+      border-radius: 11px;
+      width: 47px;
+      margin: 5px;
+  
+    }
+    #yt{
+      border-radius: 114px;
+      width: 50px;
+      margin: 5px;
+  
+    }
+
+
+
+    @media(min-width:1200px){
+
+
+    .icons .fa{
+      color: red;
+      margin: 0px 14px;
+      cursor: pointer;
+      padding: 5px 0px;
+    
+      
+    }
+  }

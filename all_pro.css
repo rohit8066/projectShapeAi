@@ -1,0 +1,266 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  /* background-color: rgb(206, 224, 240); */
+  overflow-x: hidden;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+/* navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: rgba(174, 194, 96,0.95);
+  
+    align-items: center;
+    /* z-index: 200; */
+    border-bottom-left-radius:13px ;
+    border-bottom-right-radius:13px ;
+    
+  }
+
+  /* srf logo div */
+  .nav__logo {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  /* srf logo img */
+
+  .nav__img{
+    margin: 5px;
+    width: 40%;
+    /* height: 60px; */
+  }
+
+  
+  .nav__list_div{
+    padding-left: 5px;
+  }
+li{
+  list-style: none;
+  display: inline;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.nav__a{
+  text-decoration-line: none;
+  color: black;
+  font-size:initial;
+}
+.nav__a:hover{
+  text-decoration-line: underline;
+  color: rgb(211, 89, 41);
+}
+  
+  .button__primary {
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+    display: block;
+    cursor: pointer;
+  }
+  .button__order {
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+    margin: 10px;
+    padding: 4px 6px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+    /* display: block; */
+    cursor: pointer;
+  }
+  
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    .text{
+      text-align: center;
+    }
+
+    /* ==== */
+
+    .pro__first__sec{
+        margin-top: 6rem;
+    }
+
+
+    .masala__product__div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 25px;
+        border-radius: 9px;
+        /* background-color: #008b515c; */
+      
+      }
+      .choco__prod__div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 25px;
+        border-radius: 9px;
+        /* background-color: #008b515c; */
+      
+      }
+      .product__div{
+      
+        width: 40%;
+        margin: 9px;
+        border: 1px solid black;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        background-color: #eee;
+      
+      }
+      .mango{
+        display: flex;
+        align-self: center  ;
+      }
+      .product__div:hover{
+        border: tomato 2px solid;
+     
+      
+      }
+      .product__img{
+        width: 100%;
+      }
+      
+      .prod__button{
+       display: flex;
+       align-self: center;
+       background-image: linear-gradient(
+            to right,
+            #ff512f 0%,
+            #dd2476 51%,
+            #ff512f 100%
+          );
+          margin: 5px;
+          text-align: center;
+          text-transform: capitalize;
+          font-weight: 500;
+          padding: 2px;
+          background-size: 200% auto;
+          color: white;
+          box-shadow: 0 0 20px #eee;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+
+
+      /* footer */
+
+
+      .footer__div{
+        padding: 10px;
+        text-align: center;
+        background-color: #560080e0;
+        border-radius: 5px;
+      }
+      .footer__text{
+        
+        align-items: center;
+        color: orange;
+      }
+      .media{
+        display: flex;
+        margin: 3px;
+        justify-content: flex-end;
+        
+      }
+      #fb{
+        border-radius: 22px;
+        width: 48px;
+        margin: 5px;
+      }
+      #is{
+        border-radius: 11px;
+        width: 47px;
+        margin: 5px;
+    
+      }
+      #yt{
+        border-radius: 114px;
+        width: 50px;
+        margin: 5px;
+    
+      }
+
+
+
+
+      /* =========== */
+      @media(min-width:1200px){
+
+        .product__div{
+      
+          width: 30%;
+          margin: 9px;
+          border: 1px solid black;
+          border-radius: 3px;
+          display: flex;
+          flex-direction: column;
+          background-color: #eee;
+        
+        }
+        
+        .product__div:hover{
+          border: tomato 2px solid;
+          width: 33%;
+        }
+
+        .icons .fa{
+          color: red;
+          margin: 0px 14px;
+          cursor: pointer;
+          padding: 5px 0px;
+        
+          
+        }
+      }
+        
+
+
+
+
+      
